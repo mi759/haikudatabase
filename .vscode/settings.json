@@ -1,0 +1,6 @@
+{
+    "files.eol": "\n",
+    "SQL-Formatter-VSCode.dialect": "postgresql",
+    "SQL-Formatter-VSCode.keywordCase": "upper",
+    "SQL-Formatter-VSCode.dataTypeCase": "upper"
+}
