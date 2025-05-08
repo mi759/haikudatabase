@@ -5,7 +5,7 @@ VALUES
     ('takarai_kikaku', '宝井其角', '蕉門十哲。洒落が得意です。');
 
 INSERT INTO
-    haiku (content, author)
+    haiku (content, created_by)
 VALUES
     (
         '行春や鳥啼魚の目は泪',
@@ -15,7 +15,7 @@ VALUES
             FROM
                 "user"
             WHERE
-                user_id = 'matsuo_basho'
+                display_user_id = 'matsuo_basho'
         )
     ),
     (
@@ -26,7 +26,7 @@ VALUES
             FROM
                 "user"
             WHERE
-                user_id = 'matsuo_basho'
+                display_user_id = 'matsuo_basho'
         )
     ),
     (
@@ -37,7 +37,7 @@ VALUES
             FROM
                 "user"
             WHERE
-                user_id = 'takarai_kikaku'
+                display_user_id = 'takarai_kikaku'
         )
     ),
     (
@@ -48,6 +48,6 @@ VALUES
             FROM
                 "user"
             WHERE
-                user_id = 'takarai_kikaku'
+                display_user_id = 'takarai_kikaku'
         )
     );
